@@ -1,2 +1,2 @@
 # warehousewars
-learn ibm cloud
+learn ibm cloud like a nub
