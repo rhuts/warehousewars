@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>The 2D Canvas</title>
+		<link rel="stylesheet" type="text/css" href="styles/main.css" />
+		<link href="https://fonts.googleapis.com/css?family=Armata" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
+		<script type="text/javascript"> var global = {}; </script>
+		<script src="lib/constants.js"> </script>
+
+		<script src="lib/jquery-3.1.1.min.js"></script>
+		<script src="lib/react.js"></script>
+		<script src="lib/react-dom.js"></script>
+		<script src="lib/babel.min.js"></script>
+		<script src="lib/zxcvbn.js"></script>
+
+		<script src="lib/client.js" > </script>
+
+		<script src="components/Content.js" type="text/babel"> </script>
+		<script src="components/Login.js" type="text/babel"> </script>
+		<script src="components/Register.js" type="text/babel"> </script>
+		<script src="components/MyButton.js" type="text/babel"> </script>
+		<script src="components/Nav.js" type="text/babel"> </script>
+		<script src="components/Game.js" type="text/babel"> </script>
+		<script src="components/Stage.js" type="text/babel"> </script>
+		<script src="components/Controls.js" type="text/babel"> </script>
+		<script src="components/Scores.js" type="text/babel"> </script>
+		<script src="components/Profile.js" type="text/babel"> </script>
+		<script src="components/Timer.js" type="text/babel"> </script>
+		<script src="components/ReactRoot.js" type="text/babel"> </script>
+
+		<script type="text/javascript">
+			$(function(){
+				global.socket = setupSocket();
+			});
+		</script>
+	</head>
+	<body>
+		<div class="bg"></div>
+		<div id='root'></div>
+	</body>
+</html>
